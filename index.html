@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare Pages Demo – OpenHÄVG 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cloudflare Pages Demo</h1>
+        <p>20. OpenHÄVG – 06. März 2026</p>
+        <!-- <nav>
+            <a href="secondpage.html">zweite seite</a>
+        </nav> -->
+    </header>
+
+    <main>
+        <section>
+            <h2>Willkommen</h2>
+            <p>
+                Herzlich willkommen zur 20. OpenHÄVG! Diese Seite demonstriert den Einsatz von
+                <strong>Cloudflare Pages</strong> als Hosting-Plattform für statische Webseiten.
+                Cloudflare Pages ermöglicht eine schnelle, globale Auslieferung von Inhalten –
+                ohne eigene Serverinfrastruktur.
+            </p>
+        </section>
+
+        <section aria-labelledby="counter-heading">
+            <h2 id="counter-heading">Click Counter</h2>
+            <p>Dieses interaktive Element zählt deine Klicks in Echtzeit.</p>
+            <p>Anzahl der Klicks: <span id="counter" aria-live="polite">0</span></p>
+            <div class="button-group">
+                <button id="btnInc" aria-label="Klicks erhöhen">+</button>
+                <button id="btnDec" aria-label="Klicks verringern">−</button>
+                <button id="btnReset" aria-label="Klicks zurücksetzen">Reset</button>
+            </div>
+        </section>
+
+        <section class="logo-section" aria-label="HÄVG Logo">
+            <img src="Logo.svg" alt="HÄVG-Logo" class="logo">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>20. OpenHÄVG &middot; 06. März 2026 &middot; Demonstriert mit Cloudflare Pages</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
